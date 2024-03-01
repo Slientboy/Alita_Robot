@@ -27,7 +27,7 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    STRING_SESSION = load_var("STRING_SESSION")
+    STRING_SESSION =  "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
     APP_ID = int(2568615)
     API_HASH = "1e62cca9207a4469ca847526acebb660"
     OWNER_ID = int(1194169408)
@@ -65,7 +65,7 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    STRING_SESSION = "YOUR STRING_SESSION"
+    STRING_SESSION = "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
     APP_ID = 2568615  # Your APP_ID from Telegram
     API_HASH = "1e62cca9207a4469ca847526acebb660"  # Your APP_HASH from Telegram
     OWNER_ID = " "1194169408""
